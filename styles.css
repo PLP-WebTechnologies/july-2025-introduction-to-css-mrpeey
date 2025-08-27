@@ -1,0 +1,44 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4f4caf;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 8px;
+    max-width: 700px;  
+    margin-bottom: 10px;
+    margin: 0 auto 20px; 
+}
+
+
+/* Content Box Styling */
+.content-box {
+    background-color: white;
+    border: 3px solid hwb(257 3% 16%);
+    padding: 30px;        /* Inner spacing */
+    margin: 0 auto 10px;  /* Outer spacing: centered horizontally and 20px bottom margin */
+    max-width: 700px;     /* Fixed width for layout consistency */
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 40px;
+}
